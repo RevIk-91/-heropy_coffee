@@ -21,6 +21,71 @@ img{
   position: relative;
 }
 
+/* 자세히 보기 버튼 */
+.btn {
+  width: 130px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 700;
+  color:#333;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  transition: .4s;
+}
+.btn:hover {
+  background-color: #333;
+  color: #FFF;
+}
+.btn.btn--reverse {
+  background-color: #333;
+  color: #FFF;
+}
+.btn.btn--reverse:hover {
+  background-color: transparent;
+  color:#333;
+}
+.btn.btn--brown {
+  color: #592B18;
+  border-color:#592B18;
+}
+.btn.btn--brown:hover {
+  color: #FFF;
+  background-color: #592B18;
+}
+.btn.btn--gold {
+  color: #D9AA8A;
+  border-color: #D9AA8A;
+}
+.btn.btn--gold:hover {
+  color: #FFF;
+  background-color: #D9AA8A;
+}
+.btn.btn--white {
+  color: #FFF;
+  border-color: #FFF;
+}
+.btn.btn--white:hover {
+  color: #333;
+  background-color: #FFF;
+}
+
+/* SIGN IN 버튼 */
+.btn.btn--primary {
+  color: #fff;
+  background-color: #EA9926;
+  border: none;
+}
+.btn.btn--primary:hover {
+  background-color: #cc8823;
+}
+.btn.block {
+  width: 100%;
+}
+
 /* header */
 
 header{
